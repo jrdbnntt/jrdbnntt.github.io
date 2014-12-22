@@ -1,0 +1,27 @@
+body {
+	font-family: "Helvetica Light", sans-serif;
+	background-color: #332C28;
+}
+
+#pengu {
+	width: 30%;
+	height: auto;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 60px;
+}
+
+h2 {
+	color: #FFF;
+	display: inline;
+	font-size: 25px;
+}
+
+span {
+	color: #CC5D1F;
+	font-size: 25px
+}
