@@ -4,9 +4,22 @@ PERCENT_WIDTH = .3
 PERCENT_WIDTH_SIDES = .5
 ROTATION = 30
 
-$penguCenter = $('#penguCenter')
-$penguLeft = $('#penguLeft')
-$penguRight = $('#penguRight')
+penguIds= ['penguLeft','penguCenter', 'penguRight']
+
+# replace swfs with gifs if in mobile
+isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+if isMobile
+	$penguContainer = $('penguContainer')
+	for penguId in penguIds
+		$('#'+penguId).replaceWith '<embed id="' + penguId + '" src="img/penguuu.gif"/>'
+
+
+$penguCenter = $('#'+penguIds[1])
+$penguLeft = $('#'+penguIds[0])
+$penguRight = $('#'+penguIds[2])
+
+
+
 
 $(document).ready ()->
 	fixPengu()
