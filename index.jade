@@ -3,10 +3,26 @@ html
 		link(href='css/main.css', rel='stylesheet', type='text/css')
 	body
 		center
-			img(src='img/penguuu.gif', id='pengu')
+			//- img(class='pengu', src='img/penguuu.gif')
+			//- br
+			.penguContainer
+				embed(id='penguLeft', src='res/penguu.swf')
+				embed(id='penguCenter', src='res/penguu.swf')
+				embed(id='penguRight', src='res/penguu.swf')
+			br
+			
+			
 			h1 J A R E D &nbsp; B E N N E T T
 			h2 CODER
 			span &nbsp;&nbsp;&#8226;&nbsp;
 			h2 STUDENT
 			span &nbsp;&nbsp;&#8226;&nbsp;
 			h2 FRIENDLY DRUNK
+			
+			
+			
+	
+	//- Javascript
+	script(src='https://code.jquery.com/jquery-1.11.2.min.js')
+	script(src='js/main.js')
+	

@@ -1,9 +1,10 @@
 body {
+	min-width: 800px;
 	font-family: "Helvetica Light", sans-serif;
 	background-color: #332C28;
 }
 
-#pengu {
+.pengu {
 	width: 30%;
 	height: auto;
 	margin-bottom: 20px;
@@ -24,4 +25,21 @@ h2 {
 span {
 	color: #CC5D1F;
 	font-size: 25px
+}
+
+
+.penguContainer{
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+
+#flashContent{
+	width:300px;
+	height:300px;
+	display: block;
+	margin: 0px;
+}
+
+a {
+	color: #FFF;
 }
